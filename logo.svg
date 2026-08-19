@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Innovative STEM Academy mark">
+  <defs>
+    <linearGradient id="markGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E8FD5"/>
+      <stop offset="100%" stop-color="#7FC241"/>
+    </linearGradient>
+    <linearGradient id="markGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7FC241"/>
+      <stop offset="100%" stop-color="#1E8FD5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- orbit ring -->
+  <ellipse cx="100" cy="55" rx="46" ry="15" fill="none" stroke="#8FCB3E" stroke-width="5" transform="rotate(-8 100 55)"/>
+  <!-- spark -->
+  <path d="M100 24 L106 40 L122 46 L106 52 L100 68 L94 52 L78 46 L94 40 Z" fill="#8FCB3E"/>
+
+  <!-- reaching figure -->
+  <path d="M74 68 C70 100 60 130 44 175 C52 178 62 178 70 172 C82 148 92 128 100 112 C108 128 120 146 134 162 C150 178 168 182 178 176 C168 168 148 150 134 128 C122 110 116 96 112 82"
+        fill="none" stroke="url(#markGrad)" stroke-width="15" stroke-linecap="round"/>
+
+  <!-- grad cap -->
+  <g transform="translate(100 78)">
+    <circle cx="18" cy="18" r="16" fill="url(#markGrad2)"/>
+    <path d="M18 -8 L48 6 L18 20 L-12 6 Z" fill="#1E8FD5"/>
+    <path d="M40 10 L48 6 L48 22" fill="none" stroke="#1E8FD5" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
